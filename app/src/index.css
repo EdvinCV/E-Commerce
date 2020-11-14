@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #17202A;
+  color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loginForm {
+  width: 60%;
+  align-content: center;
+  margin: 5vh auto;
+}
+
+.listadoProductos {
+  margin: 20px;
+  background-color: beige;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productCard {
+  width: 18rem;
+  margin: 10px;
+}
+
+.misProductos {
+  margin: 10px;
+}
+
+.encabezaTienda {
+  text-align: center;
+  margin: 10px;
+  background: #B2BABB;
+}
+
+.listadoMisProductos {
+  margin: 10px;
+  padding: 10px;
+  background: #B2BABB;
+}
+
+.listadoMisProductos ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.createProductForm {
+  width: 90%;
+  align-content: center;
+  margin: 5vh auto;
+}
+
+.carrito {
+  background: #B2BABB;
+  padding: 20px;
+  width: 90%;
+  align-content: center;
+  margin: 5vh auto;
+}
+
+.reportes {
+  background: #B2BABB;
+  padding: 20px;
+  width: 90%;
+  align-content: center;
+  margin: 5vh auto;
+}
